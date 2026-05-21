@@ -1,0 +1,58 @@
+
+[
+    {  
+        "id": 1,
+        "title": "E-commerce API Documentation",
+        "description": "Dynamic E-Commerce Workflow Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management.\n Documented Backend API published publicly using Postman.",
+        "image": "https://d1zruf9db62p8s.cloudfront.net/2025/08/eCommerce-Development-Understanding-API-Integrations-.webp"
+    },
+    {
+        "id": 2,
+        "title": "Course Booking API Documentation",
+        "description": "RESTful API for managing course enrollments, featuring user registration, authentication, and retrieval of user details. Supports course creation, updates, archiving, activation, and student enrollment. Publicly documented using Postman.",
+        "image": "https://www.pratra.com/uploads/blog/01.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Course booking App",
+        "description": "A MERN-stack course enrollment system featuring user registration, authentication, and profile management. Authenticated users can create, update, archive, and activate courses. The platform also allows users to browse available courses and enroll seamlessly.",
+        "image": "https://static.vecteezy.com/system/resources/thumbnails/023/642/064/small/booking-hotel-online-tiny-people-search-choose-and-reservation-hotel-or-apartment-on-web-site-tourist-and-business-trip-modern-flat-cartoon-style-illustration-on-white-background-vector.jpg"
+    },
+    {
+        "id": 4,
+        "title": "E-commerce App",
+        "description": "MERN E-Commerce Platform. The platform features dynamic product catalog with filtering and sorting, real-time search, seamless cart updates, secure checkout, and a comprehensive admin dashboard with real-time analytics and user management capabilities.",
+        "image": "https://img.freepik.com/free-vector/digital-marketing-e-commerce-buyer-flat-character-shopping-online-app-monetization-mobile-app-advertisement-app-download-promotion-concept_335657-13.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Airline Booking System Mockup",
+        "description": "Side Project: Conceptual design showcasing an intuitive UI for flight search, seat selection, and booking confirmation, focusing on user experience and workflow efficiency.",
+        "image": "https://static.vecteezy.com/system/resources/thumbnails/075/186/312/small/digital-ticketing-system-travel-options-vector.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Airline Booking System Prototype",
+        "description": "Side Project: Interactive prototype simulating end-to-end airline booking functionalities, including flight search, reservation, payment processing, and real-time ticket management.",
+        "image": "https://img.freepik.com/free-vector/flat-design-online-ticket-illustration_23-2151089593.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Short Courses Capstone",
+        "description": "Placeholder for your Short courses capstone project.",
+        "image": "https://www.helpforassessment.com/blog/wp-content/uploads/2020/08/technology-capstone-project-ideas.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Short Courses Capstone",
+        "description": "Placeholder for your Short courses capstone project.",
+        "image": "https://www.helpforassessment.com/blog/wp-content/uploads/2020/08/technology-capstone-project-ideas.jpg"
+    },
+    {
+        "id": 9,
+        "title": "New Project",
+        "description": "Placeholder for your Short courses capstone project.",
+        "image": "https://www.helpforassessment.com/blog/wp-content/uploads/2020/08/technology-capstone-project-ideas.jpg"
+    }
+
+]

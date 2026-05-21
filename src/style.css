@@ -1,0 +1,819 @@
+/*Reset*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*Navbar CSS*/
+nav{
+	margin-bottom: 50px;
+}
+
+/*Headings*/
+h1, h5{
+	font-family: 'Cal Sans';
+	color: black;
+}
+
+/*Description Captions*/
+#projects p, #aboutme p{
+	text-indent: 40px;
+	font-family: 'Poiret One';
+	font-weight: bold;
+}
+
+/*HTML CSS*/
+
+html{
+	scroll-behavior: smooth;
+}
+
+/*Projects Cards CSS*/
+#projects .card{
+	height: 35rem;
+	width: 20rem;
+}
+
+#projects .card-img-top {
+  height: 200px;        /* fixed height */
+  object-fit: cover;    /* crops image instead of stretching */
+}
+
+/* PROJECT SECTION ONLY */
+#projects .card {
+  border: none;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* HOVER EFFECT */
+#projects .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* IMAGE */
+#projects .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+/* IMAGE HOVER ZOOM */
+#projects .card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+/* BODY */
+#projects .card-body {
+  padding: 20px;
+}
+
+/* TITLE */
+#projects .card-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #222;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* TEXT */
+#projects .card-text {
+  font-size: 0.9rem;
+  color: #555;
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/* BUTTON WRAPPER */
+#projects .card .d-flex.gap-2 {
+  width: 100%;
+}
+
+/* BUTTONS */
+#projects .card .btn {
+  flex: 1;
+  border-radius: 25px;
+  font-size: 0.85rem;
+  padding: 8px 0;
+  transition: all 0.3s ease;
+}
+
+/* PRIMARY BUTTON STYLE */
+#projects .card .btn-primary {
+  background: linear-gradient(135deg, #008080, #20c997);
+  border: none;
+}
+
+/* BUTTON HOVER */
+#projects .card .btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+#aboutme img{
+	max-height: 80%;
+	max-width: 80%;
+	padding-left: 60px;
+}
+
+/*Skills Cards CSS*/
+#skills .card{
+	max-width: 30rem;
+	margin: 20px;
+}
+
+.logo-box{
+	width: 10rem;
+	height: 10rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo-box img{
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+}
+
+/* CARD */
+#skills .card, #tools .card {
+  background: #ffffff;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+#skills .card:hover, #tools .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* LOGO SIDE */
+.logo-container {
+  background: linear-gradient(135deg, #f8f9fa, #eef1f4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CARD BODY */
+#skills .card-body, #tools .card-body {
+  padding: 20px;
+}
+
+#skills .card-title, #tools .card-title {
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+#skills .card-text, #tools .card-text {
+  font-size: 0.9rem;
+}
+
+/* SKILL BAR */
+#skills .skill-bar {
+  width: 100%;
+  height: 10px;
+  background: #e9ecef;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+/* GRADIENT FILL */
+#skills .skill-fill {
+  height: 100%;
+  /*width: 85%;*/
+  border-radius: 50px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  transition: width 0.6s ease-in-out;
+  animation: loadBar 1.5s ease-in-out;
+}
+
+#html{
+  width: 85%;
+}
+
+#css{
+  width: 75%;
+}
+
+#bootstrap{
+  width: 60%;
+}
+
+#js{
+  width: 10%;
+}
+
+/* ANIMATION */
+@keyframes loadBar {
+  from {
+    width: 0;
+  }
+}
+
+/*Tools Cards CSS*/
+#tools .card{
+	max-width: 30rem;
+	margin: 20px;
+}
+
+/*Contact Me CSS*/
+
+/* =========================================
+   GLOBAL & LAYOUT STYLES (Your Original Code)
+   ========================================= */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#contact .logo-box {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* =========================================
+   THE INFO CARD (Transparent & Borderless)
+   ========================================= */
+#info .card {
+  max-width: 30rem;
+  min-height: 25rem;
+  background: none;
+  box-shadow: none;
+  border: 0;
+}
+
+/* =========================================
+   THE CONTACT FORM CARD (Neon Cyber Vibe)
+   ========================================= */
+#contact .card {
+  max-width: 30rem;
+  min-height: 25rem; /* Changed from max-height so the form doesn't overflow */
+  
+  /* The Cyberpunk styling merged into your card class */
+  /*background-color: #111;*/
+  border: 1px solid #222;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); 
+}
+
+/* The Labels */
+#contact .form-label {
+  /*color: #0ff; */
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Cal Sans';
+}
+
+/* The Input Fields & Textarea */
+#contact .form-control {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: #fff; 
+  border-radius: 8px;
+  padding: 12px 15px;
+  transition: all 0.3s ease;
+}
+
+/* Placeholder Text Color */
+#contact .form-control::placeholder {
+  color: gray;
+}
+
+/* When the user clicks into an input field */
+#contact .form-control:focus {
+  background-color: #222;
+  border-color: #0ff;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.2); 
+  outline: none;
+}
+
+/* =========================================
+   THE ANIMATED SUBMIT BUTTON (Neon Vibe)
+   ========================================= */
+#contact .submit-btn {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background: black;
+  color: #0ff; /* Neon cyan text and icon */
+  border: 2px solid #0ff;
+  padding: 0.7em 1.5em;
+  display: flex;
+  align-items: center;
+  border-radius: 8px; /* Matched to your form inputs */
+  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.1); /* Subtle default glow */
+}
+
+#contact .submit-btn span {
+  display: block;
+  margin-left: 0.5em;
+  transition: all 0.3s ease-in-out;
+}
+
+#contact .submit-btn svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover State: Fills with Cyan, text turns dark */
+#contact .submit-btn:hover {
+  background-color: #0ff;
+  color: #111; 
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.6); /* Intensified glow */
+}
+
+/* Uiverse Animations adapted for the new button width */
+#contact .submit-btn:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+#contact .submit-btn:hover svg {
+  /* Pushes the airplane to the center of the button */
+  transform: translateX(2.5em) rotate(45deg) scale(1.1); 
+}
+
+#contact .submit-btn:hover span {
+  /* Pushes the text completely out of the button */
+  transform: translateX(15em); 
+}
+
+#contact .submit-btn:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
+
+
+/*Background*/
+body {
+  background: linear-gradient(135deg, #008080, #20c997, #0dcaf0);
+  min-height: 100vh;
+}
+
+/*Navbar*/
+#navBar {
+  background: linear-gradient(135deg, #008080, #20c997, #0dcaf0);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  font-family: 'Poiret One';
+}
+
+/* Brand */
+#navBar .navbar-brand {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+#navBar .navbar-brand:hover {
+  color: #e0ffff;
+}
+
+/* Nav links */
+#navBar .nav-link {
+  color: #ffffff;
+  margin-left: 12px;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* Underline animation */
+#navBar .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transition: 0.3s;
+}
+
+#navBar .nav-link:hover::after {
+  width: 100%;
+}
+
+#navBar .nav-link:hover {
+  color: #e0ffff;
+}
+
+/* Active link */
+#navBar .nav-link.active {
+  font-weight: bold;
+}
+
+/* Dropdown */
+#navBar .dropdown-menu {
+  background: rgba(0, 128, 128, 0.95);
+  border: none;
+  backdrop-filter: blur(10px);
+}
+
+#navBar .dropdown-item {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#navBar .dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Mobile toggler */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/*Landing Page*/
+
+#landing {
+  font-family: 'Poiret One', sans-serif; /* default for descriptions */
+}
+
+/* HELLO WORLD */
+#landing h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5rem;
+  color: black;
+  line-height: 1.5;
+}
+
+/* HEADINGS (Name, titles) */
+#landing h3,
+#landing h5 {
+  font-family: 'Cal Sans', sans-serif;
+}
+
+/* DESCRIPTION TEXT */
+#landing p {
+  font-family: 'Poiret One', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  text-indent: 50px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+#landing .col-6 .card {
+  border: none;
+  border-radius: 20px;
+  padding: 20px 10px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 10px 30px rgba(0, 128, 128, 0.25);
+  transition: all 0.3s ease;
+}
+
+/* NAME */
+#landing .card h3 {
+  font-family: 'Cal Sans', sans-serif;
+  font-size: 1.6rem;
+  margin-top: 10px;
+}
+
+/* ROLE */
+#landing .card h5 {
+  font-family: 'Cal Sans', sans-serif;
+  font-size: 1.1rem;
+  color: #20c997;
+  letter-spacing: 1px;
+}
+
+/*Buttons*/
+.cssbuttons-io {
+  position: relative;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px; /* Reduced from 18px to make the button smaller */
+  letter-spacing: 0.05em;
+  border-radius: 0.8em;
+  cursor: pointer;
+  border: none;
+  background: teal; /* Changed from purple gradient to teal for the hover state */
+  color: ghostwhite;
+  overflow: hidden;
+  text-decoration: none; 
+  text-align: center;
+}
+
+.cssbuttons-io svg {
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 0.5em;
+}
+
+.cssbuttons-io span {
+  position: relative;
+  z-index: 10;
+  transition: color 0.4s;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.6em 1em 0.6em 0.9em; /* Tightened padding for a more compact look */
+}
+
+.cssbuttons-io::before,
+.cssbuttons-io::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.cssbuttons-io::before {
+  content: "";
+  background: #000;
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.cssbuttons-io:hover::before {
+  transform: translate3d(100%, 0, 0);
+}
+
+.cssbuttons-io:active {
+  transform: scale(0.95);
+}
+
+/*Card*/
+.holographic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem; 
+  /* Removed background: #000; and height: 100vh; so it is transparent and fits your layout */
+}
+
+#landing .holographic-container{
+  max-width: 40rem;
+}
+
+#landing .id-card{
+  width: 25rem;
+}
+
+.holo-card {
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+  width:75%;
+}
+
+.holo-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  background: linear-gradient(
+    0deg, 
+    transparent, 
+    transparent 30%, 
+    rgba(0,255,255,0.3)
+  );
+  transform: rotate(-45deg);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+.holo-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+.holo-card:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+
+.holographic-card {
+  max-width: 40rem; 
+  min-height: 200px;
+  padding: 2rem; 
+  background: #111; 
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+}
+
+.holographic-card p {
+  color: #0ff; 
+  font-size: 1.1rem; 
+  line-height: 1.6;
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  text-align: justify; 
+}
+
+.holographic-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    0deg, 
+    transparent, 
+    transparent 30%, 
+    rgba(0,255,255,0.3)
+  );
+  transform: rotate(-45deg);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+.holographic-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+.holographic-card:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+/*hello, world*/
+.hello-hover {
+  color: ghostwhite; /* Keeps it readable before hover */
+  transition: all 0.3s ease-in-out;
+  cursor: default;
+}
+
+.hello-hover:hover {
+  color: #0ff; /* The cyan from your holographic card */
+  text-shadow: 
+    0 0 10px rgba(0, 255, 255, 0.8),
+    0 0 20px rgba(0, 255, 255, 0.6),
+    0 0 30px rgba(0, 255, 255, 0.4);
+  transform: scale(1.05) translateX(5px); /* Slight pop and shift */
+}
+
+/*Profile ID*/
+/* The main ID card styling */
+.id-card {
+  border-radius: 15px;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 15px 35px rgba(0, 128, 128, 0.4);
+  background-color: #ffffff;
+  position: relative;
+  padding-top: 15px; /* Pushes content down to make room for the hole punch */
+  border-top: 8px solid teal; /* ID badge color header */
+  overflow: hidden;
+}
+
+/* The Lanyard / Badge Clip Hole */
+.id-card::before {
+  content: '';
+  position: absolute;
+  top: 15px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 12px;
+  /* Simulates a punched hole by matching the background with an inner shadow */
+  background-color: #e5e7eb; 
+  border-radius: 10px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.3);
+  z-index: 10;
+}
+
+/* Subtle security/watermark lines on the background of the ID */
+.id-card .card-body {
+  background-image: repeating-linear-gradient(
+    0deg, 
+    transparent, 
+    transparent 19px, 
+    rgba(0,0,0,0.03) 19px, 
+    rgba(0,0,0,0.03) 20px
+  );
+}
+
+/*Grad Pic*/
+.grad-pic {
+  max-width: 350px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background-color: #ffffff;
+  padding: 10px 10px 40px 10px; /* Creates the white polaroid frame (thicker at the bottom) */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  transform: rotate(-4deg); /* Gives it a casual, scattered tilt */
+  transition: transform 0.3s ease;
+}
+
+/*Back to top*/
+/* =========================================
+   BACK TO TOP BUTTON
+   ========================================= */
+.back-to-top {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #111; /* Dark background to match cards */
+  border: 2px solid #0ff; /* Cyan glowing border */
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.3); /* Cyan shadow */
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  z-index: 1000; /* Ensures it stays on top of all other content */
+}
+
+/* The Arrow Icon */
+.back-to-top .svgIcon {
+  width: 16px; /* Slightly larger arrow */
+  transition-duration: 0.3s;
+}
+
+.back-to-top .svgIcon path {
+  fill: #0ff; /* Cyan arrow */
+}
+
+/* Hover State */
+.back-to-top:hover {
+  width: 140px;
+  border-radius: 50px;
+  transition-duration: 0.3s;
+  background-color: #0ff; /* Fills with cyan */
+  align-items: center;
+  box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.6); /* Glow intensifies */
+}
+
+/* Animates the arrow out of frame */
+.back-to-top:hover .svgIcon {
+  transition-duration: 0.3s;
+  transform: translateY(-200%);
+}
+
+/* The "Back to Top" Text Setup */
+.back-to-top::before {
+  position: absolute;
+  bottom: -20px;
+  content: "Back to Top";
+  color: #111; /* Dark text on bright cyan background */
+  font-size: 0px;
+  font-weight: bold;
+  white-space: nowrap; /* Prevents text from wrapping to two lines */
+}
+
+/* The Text Hover Animation */
+.back-to-top:hover::before {
+  font-size: 14px;
+  opacity: 1;
+  bottom: unset;
+  transition-duration: 0.3s;
+}
